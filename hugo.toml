@@ -1,0 +1,6 @@
+baseURL = 'https://www.zacharyparmley.com/'
+languageCode = 'en-us'
+title = 'Zachary C. Parmley'
+theme = 'zacharyparmley.com'
+
+[Taxonomies]

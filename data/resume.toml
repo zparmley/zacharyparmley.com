@@ -1,0 +1,36 @@
+about = 'Senior Software Engineer with 15+ years in full-stack/backend development, management, and cybersecurity. Experienced in leading engineering teams and advising on federal cybersecurity and AI threat strategies. Passionate about complex problem-solving and continuous learning. Seeking new challenges.'
+
+[[experience]]
+title = 'Senior Software Engineer'
+company = 'SIRUM'
+start_date = 'January 2024'
+end_date = 'October 2024'
+details = [
+    'Developed full-stack solutions to enable pharmacy operations',
+    'Analyzed and implemented solution for observability of error conditions in an AI driven automated inventory sorting conveyor system',
+]
+final_detail_marker = ''
+
+[[experience]]
+title = 'Cyber Security Engineer VI'
+company = 'Millennium Corporation'
+start_date = 'June 2018'
+end_date = 'October 2023'
+details = [
+    'Researched, advised on, and productionized new and emerging cyber security attack vectors.',
+    'Developed and deployed tools and processes supporting realistic threat-emulation engagements across a wide variety of systems under test.',
+    'Participated in working groups at the federal level to categorize and create testing strategies for emerging AI/machine learning oriented threats.',
+    'Actively deployed hardware, software, and hybrid attacks against live targets during hands-on engagements.',
+]
+final_detail_marker = 'Projects'
+
+[[experience]]
+title = ''
+company = ''
+start_date = ''
+end_date = ''
+details = [
+    '',
+    '',
+]
+final_detail_marker = ''
