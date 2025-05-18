@@ -1,6 +1,27 @@
 baseURL = 'https://www.zacharyparmley.com/'
 languageCode = 'en-us'
 title = 'Zachary C. Parmley'
-theme = 'zacharyparmley.com'
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.147.0'
 
 [Taxonomies]
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+
