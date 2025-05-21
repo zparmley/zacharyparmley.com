@@ -1,6 +1,6 @@
 +++
 date = '2025-05-19T16:31:49-04:00'
-draft = true
+draft = false
 title = 'Typer and __init__'
 tags = ['python', 'typer', 'dataclasses', 'dataclass', 'cli']
 +++

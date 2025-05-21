@@ -1,6 +1,6 @@
 +++
 date = '2025-05-19T19:29:10-04:00'
-draft = true
+draft = false
 title = 'Render build123d with pyvista'
 tags = ['python', 'build123d', 'pyvista', 'render']
 +++
