@@ -1,0 +1,46 @@
+{{ define "main" }}
+  <p class='center'>
+    {{ .Site.Data.resume.headline }}
+  </p>
+  <h2 class='center'>About</h2>
+  <p>
+    {{ .Site.Data.resume.about }}
+  </p>
+  <h2 class='center'>Expertise / Areas of Focus</h2>
+  {{ $expertise := .Site.Data.resume.expertise }}
+  {{ range 2 }}
+    <ul class='expertises'>
+    {{ $row := . }}
+    {{ range 4 }}
+      {{ $col := . }}
+      {{ $index := add (mul $row 4) $col }}
+      <li>{{ index $expertise $index }}</li>
+    {{ end}}
+  </ul>
+  {{ end }}
+  <h2 class='center'>Professional Experience</h2>
+  {{ range .Site.Data.resume.experience }}
+    <p>
+      <strong>{{ .title }}, {{ .company }}</strong>
+      <em>{{ .start_date }} - {{ .end_date }}</em>
+    </p>
+    <ul>
+      {{ range .details }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  <h2 class='center'>Education</h2>
+  {{ range .Site.Data.resume.education }}
+    <p>
+      <strong>{{ .institution }}</strong>
+      <em>{{ .start_date }} - {{ .end_date }}</em>
+    </p>
+    <ul>
+      {{ range .details }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  {{ .Content }}
+{{ end }}

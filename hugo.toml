@@ -7,7 +7,7 @@ title = 'Zachary C. Parmley'
     extended = true
     min = '0.147.0'
 
-[Taxonomies]
+# [Taxonomies]
 
 [menus]
   [[menus.main]]
@@ -16,12 +16,17 @@ title = 'Zachary C. Parmley'
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = 'Snippets'
+    pageRef = '/snippets'
     weight = 20
+  
+  [[menus.main]]
+    name = 'Resume'
+    pageRef = '/resume'
+    weight = 30
 
   [[menus.main]]
     name = 'Tags'
     pageRef = '/tags'
-    weight = 30
+    weight = 40
 

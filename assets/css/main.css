@@ -24,9 +24,27 @@ a {
   text-decoration: none;
 }
 
+nav {
+    display flex;
+    justify-content: center;
+}
+
+nav div.col {
+    padding: 0rem 1rem;
+}
+
 .flex {
     display: flex;
-    justify-content: flex-end;
+}
+
+ul.expertises {
+    display: flex;
+    justify-content:space-between;
+}
+
+ul.expertises li {
+    flex: 1;
+    flex-grow: 1;
 }
 
 .col {
@@ -36,4 +54,8 @@ a {
 
 .grow {
     flex-grow: 1;
+}
+
+.center {
+    text-align: center;
 }

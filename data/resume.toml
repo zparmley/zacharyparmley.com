@@ -1,4 +1,16 @@
-about = 'Senior Software Engineer with 15+ years in full-stack/backend development, management, and cybersecurity. Experienced in leading engineering teams and advising on federal cybersecurity and AI threat strategies. Passionate about complex problem-solving and continuous learning. Seeking new challenges.'
+headline = 'Professional Software Engineer with a broad array of industry experience'
+about = '''Senior Software Engineer with 15+ years in full-stack/backend
+    development, management, and cybersecurity. Experienced in leading engineering
+    teams and advising on federal cybersecurity and AI threat strategies.
+    Passionate about complex problem-solving and continuous learning. Eager to
+    apply my extensive experience to a Senior/Staff Engineering position
+    focused on complex problem-solving and technical leadership.'''
+
+expertise = [
+    'Python', 'SQL', 'Backend Infra', 'Microservices',
+    'Cyber Security', 'Secure AI', 'Mentorship', 'Scaling',
+    'Technical Communication', 'Collaberation', 
+]
 
 [[experience]]
 title = 'Senior Software Engineer'
@@ -6,10 +18,10 @@ company = 'SIRUM'
 start_date = 'January 2024'
 end_date = 'October 2024'
 details = [
-    'Developed full-stack solutions to enable pharmacy operations',
-    'Analyzed and implemented solution for observability of error conditions in an AI driven automated inventory sorting conveyor system',
+    '''Developed full-stack solutions to enable pharmacy operations''',
+    '''Analyzed and implemented solution for observability of error conditions
+    in an AI driven automated inventory sorting conveyor system''',
 ]
-final_detail_marker = ''
 
 [[experience]]
 title = 'Cyber Security Engineer VI'
@@ -17,20 +29,88 @@ company = 'Millennium Corporation'
 start_date = 'June 2018'
 end_date = 'October 2023'
 details = [
-    'Researched, advised on, and productionized new and emerging cyber security attack vectors.',
-    'Developed and deployed tools and processes supporting realistic threat-emulation engagements across a wide variety of systems under test.',
-    'Participated in working groups at the federal level to categorize and create testing strategies for emerging AI/machine learning oriented threats.',
-    'Actively deployed hardware, software, and hybrid attacks against live targets during hands-on engagements.',
+    '''Researched, advised on, and productionized new and emerging cyber
+    security attack vectors.''',
+    '''Developed and deployed tools and processes supporting realistic
+    threat-emulation engagements across a wide variety of systems under test.''',
+    '''Participated in working groups at the federal level to categorize and
+    create testing strategies for emerging AI/machine learning oriented
+    threats.''',
+    '''Deployed hardware, software, and hybrid attacks against live targets
+    during on site and remote engagements.''',
 ]
-final_detail_marker = 'Projects'
 
 [[experience]]
-title = ''
-company = ''
-start_date = ''
-end_date = ''
+title = 'Engineering Manager'
+company = 'Yelp Hamburg DE'
+start_date = 'Nov 2015'
+end_date = 'March 2018'
 details = [
-    '',
-    '',
+    '''Managed 12+ engineers working on Yelp’s business owner products.
+    Managing teams responsible for mobile apps, websites, and APIs.''',
+    '''Successfully lead cross-team and cross-platform projects involving PMs,
+    engineers, and other managers.''',
+    '''Built new engineering teams focused on business-critical paths.
+    Collaborated with sales and marketing organizations to launch products
+    supporting new customer segments, specifically multi-location, mid market,
+    and national businesses.''',
+    '''Projects: a wide variety including data aggregation and visualization,
+    building new advertising products, and creating better marketing
+    experiences.',''',
 ]
-final_detail_marker = ''
+
+[[experience]]
+title = 'Software Developer'
+company = 'Yelp Hamburg DE'
+start_date = 'Feb 2014'
+end_date = 'Nov 2015'
+details = [
+    '''First transfer to embed with Yelp’s first remote engineering team during
+    its largest corporate acquisition. Selected to champion engineering
+    excellence and best practices, along with helping to grow the team.''',
+    '''Worked closely with Hamburg and San Francisco organizations to
+    facilitate better communication and improve collaboration between the
+    teams. Specifically coaching peers on written communication, refactoring,
+    code review, and engineering process.''',
+    '''Projects: Simpler business categorization UI, Data aggregation services
+    (dynamically responding to signals based on UGC), refactoring “new
+    business” classification, refactoring local ads middleware and frontends
+    (Yelp’s core product)''',
+]
+
+[[experience]]
+title = 'Software Developer'
+company = 'Yelp San Francisco'
+start_date = '2012'
+end_date = 'Feb 2014'
+details = [
+    '''Key engineer working on Yelp’s consumer web products. Developed python
+    backends and apis, some javascript and web frontend''',
+    '''Worked closely with designers and product managers''',
+    '''Projects: Refactored Business Details page, Refactored Ads display
+    logic, Developed ingestion mechanism for Menus data from multiple partners,
+    experiments involving the Write a Review process''',
+]
+
+[[experience]]
+title = 'Lead Developer'
+company = 'Remark Media (formerly HSW International)'
+start_date = '2008'
+end_date = '2012'
+details = [
+    '''Joined as the 6th engineer, progressed into leadership and helped grow
+    the team to ~30 engineers''',
+    '''Mentoring new hires, planning and executing large projects and
+    maintenance of legacy systems''',
+    '''Technologies: PHP, MongoDB, MySQL, Memcached, Zend Framework, AWS, Less,
+    Backbone''',
+]
+
+[[education]]
+institution = 'Georgia College & State University'
+start_date = '2002'
+end_date = '2006'
+details = [
+    '''Undergraduate studies in Biology and Philosophy, with a strong emphasis
+    on logic, metaphysics, and complex biological systems.''',
+]
