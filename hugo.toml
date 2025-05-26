@@ -21,12 +21,18 @@ title = 'Zachary C. Parmley'
     weight = 20
   
   [[menus.main]]
-    name = 'Resume'
-    pageRef = '/resume'
+    name = 'Cameras'
+    pageRef = '/cameras'
     weight = 30
 
   [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
+    name = 'Resume'
+    pageRef = '/resume'
     weight = 40
 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true

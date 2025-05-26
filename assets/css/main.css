@@ -33,6 +33,18 @@ nav div.col {
     padding: 0rem 1rem;
 }
 
+div.home-images {
+    display: flex;
+}
+
+div.home-images p {
+    flex: 1;
+}
+
+div.home-images img {
+    width: 15rem;
+}
+
 .flex {
     display: flex;
 }
@@ -58,4 +70,8 @@ ul.expertises li {
 
 .center {
     text-align: center;
+}
+
+.camera-photo img {
+    width: 40rem;
 }
