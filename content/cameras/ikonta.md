@@ -9,18 +9,18 @@ A post-war medium format range finder
 
 <!--more-->
 
-![ikonta 1](/photos/ikonta/1.jpg)
+![ikonta 1](/photos/ikonta/1.webp)
 { .camera-photo }
 
 The range finder view is pretty nice, the action when the bellows opens is
 oh-so-buttery smooth.
 
-![ikonta 2](/photos/ikonta/2.jpg)
+![ikonta 2](/photos/ikonta/2.webp)
 { .camera-photo }
 
 In all you get 11 negatives, 6cm x 6cm, on a 120 roll.
 
-![ikonta 3](/photos/ikonta/3.jpg)
+![ikonta 3](/photos/ikonta/3.webp)
 { .camera-photo }
 
 A joy to shoot.
