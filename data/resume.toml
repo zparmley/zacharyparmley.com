@@ -1,10 +1,11 @@
 headline = 'Professional Software Engineer with a broad array of industry experience'
-about = '''Senior Software Engineer with 15+ years in full-stack/backend
-    development, management, and cybersecurity. Experienced in leading engineering
-    teams and advising on federal cybersecurity and AI threat strategies.
-    Passionate about complex problem-solving and continuous learning. Eager to
-    apply my extensive experience to a Senior/Staff Engineering position
-    focused on complex problem-solving and technical leadership.'''
+about = '''Senior Software Engineering Professional with 15+ years in
+    full-stack/backend development, management, and cybersecurity. Built and led
+    engineering teams, consulted on federal cybersecurity and AI strategies, taught
+    security and programming courses internationally, developed new products and
+    contributed to core products at previous employers. Passionate about complex
+    problem-solving and continuous learning. Eager to apply my extensive experience
+    to a new position.'''
 
 expertise = [
     'Python', 'SQL', 'Backend Infra', 'Microservices',
