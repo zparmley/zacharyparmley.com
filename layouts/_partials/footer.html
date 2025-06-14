@@ -10,3 +10,9 @@
     </a>
   </p>
 </div>
+{{ if hugo.IsProduction }}
+<noscript>
+    <img src="https://sitestats.parmley.cloud/ingress/150c1a71-afda-4ad6-bb75-a69bf1e893bd/pixel.gif">
+</noscript>
+<script defer src="https://sitestats.parmley.cloud/ingress/150c1a71-afda-4ad6-bb75-a69bf1e893bd/script.js"></script>
+{{ end }}
