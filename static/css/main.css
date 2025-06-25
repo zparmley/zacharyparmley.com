@@ -1,0 +1,217 @@
+ :root {
+    --rosewater: #dc8a78;
+    --flamingo: #dd7878;
+    --pink: #ea76cb;
+    --mauve: #8839ef;
+    --red: #d20f39;
+    --maroon: #e64553;
+    --peach: #fe640b;
+    --yellow: #df8e1d;
+    --green: #40a02b;
+    --teal: #179299;
+    --sky: #04a5e5;
+    --sapphire: #209fb5;
+    --blue: #1e66f5;
+    --lavender: #7287fd;
+    --text: #4c4f69;
+    --subtext1: #5c5f77;
+    --subtext0: #6c6f85;
+    --overlay2: #7c7f93;
+    --overlay1: #8c8fa1;
+    --overlay0: #9ca0b0;
+    --surface2: #acb0be;
+    --surface1: #bcc0cc;
+    --surface0: #ccd0da;
+    --base: #eff1f5;
+    --mantle: #e6e9ef;
+    --crust: #dce0e8;
+}
+
+body {
+  background-color: var(--surface0);
+  color: var(--text);
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  max-width: 800px;
+}
+
+header {
+  color: var(--subtext0);
+  border-bottom: 1px solid var(--green);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+footer {
+  color: var(--subtext0);
+  border-top: 1px solid var(--green);
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+nav {
+    display flex;
+    justify-content: center;
+}
+
+nav div.col {
+    padding: 0rem 1rem;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: var(--text);
+}
+
+div.home-images {
+    display: flex;
+}
+
+div.home-images p {
+    flex: 1;
+}
+
+div.home-images img {
+    width: 15rem;
+}
+
+.flex {
+    display: flex;
+}
+
+ul.expertises {
+    display: flex;
+    justify-content:space-between;
+}
+
+ul.expertises li {
+    flex: 1;
+    flex-grow: 1;
+}
+
+.col {
+    flex: 1;
+    flex-grow: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.camera-photo img {
+    width: 40rem;
+}
+
+
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+  font-weight: 400;
+  border: 2px solid var(--overlay2);
+  font-size: .9rem;
+}
+
+code.hljs {
+  padding: 3px 5px
+}
+
+.hljs {
+  background: var(--crust);
+  color: var(--subtext1);
+}
+
+.hljs-comment {
+  color: var(--green);
+}
+
+.hljs-punctuation,
+.hljs-tag {
+  color: var(--subtext1);
+}
+
+.hljs-tag .hljs-attr,
+.hljs-tag .hljs-name {
+  color: var(--subtext0);
+}
+
+.hljs-attribute,
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-name,
+.hljs-selector-tag {
+  font-weight: 700;
+}
+
+.hljs-deletion,
+.hljs-number,
+.hljs-quote,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-string,
+.hljs-template-tag,
+.hljs-type {
+  color: var(--yellow);
+}
+
+.hljs-section,
+.hljs-title {
+  color: var(--mauve);
+  font-weight: 700;
+}
+
+.hljs-link,
+.hljs-operator,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-symbol,
+.hljs-template-variable,
+.hljs-variable {
+  color: var(--maroon);
+}
+
+.hljs-literal {
+  color: var(--teal);
+}
+
+.hljs-addition,
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code {
+  color: var(--teal);
+}
+
+.hljs-meta {
+  color: var(--sapphire);
+}
+
+.hljs-meta .hljs-string {
+  color: var(--lavender);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: 700;
+}
