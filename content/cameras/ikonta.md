@@ -2,6 +2,7 @@
 date: '2025-05-25T19:51:41-04:00'
 draft: false
 title: 'Super Ikonta 532/16'
+tags: ['camera', 'zeiss', 'ikonta', 'rangefinder', 'medium format', '120']
 ---
 ## a.k.a. Zeiss Icon Super Ikonta 2¼" x 2¼"
 

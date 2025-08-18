@@ -16,6 +16,7 @@ class Markdown:
     title: str
     date: datetime.datetime
     draft: bool
+    tags: list[str]
     content: str
 
     @property
@@ -42,6 +43,7 @@ class Markdown:
         title = loaded['title']
         date = datetime.datetime.fromisoformat(loaded['date']).astimezone()
         draft = loaded['draft']
+        tags = loaded['tags']
         content = loaded.content
 
-        return cls(path, title, date, draft, content)
+        return cls(path, title, date, draft, tags, content)

@@ -3,9 +3,9 @@ import pathlib
 
 import cyclopts
 from fasthtml.common import serve  # type: ignore
-from fasthtml.common import Div
 from fasthtml.common import FastHTML
-from fasthtml.common import NotFoundError, FileResponse
+from fasthtml.common import FileResponse
+from fasthtml.common import NotFoundError
 # from fasthtml.common import FastHTMLWithLiveReload
 
 from app.page import Page

@@ -1,11 +1,13 @@
 import typing
 
-from fasthtml.common import Html
+from fasthtml.common import Body  # type: ignore
 from fasthtml.common import Head
-from fasthtml.common import Title
-from fasthtml.common import Body
+from fasthtml.common import Html
 from fasthtml.common import Link
-from fasthtml.common import Meta, Main, Script
+from fasthtml.common import Main
+from fasthtml.common import Meta
+from fasthtml.common import Script
+from fasthtml.common import Title
 
 from app.page_header import PageHeader
 from app.page_footer import PageFooter
@@ -30,6 +32,7 @@ def Page(
             # Link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11/styles/github.min.css'),
             # Link(rel='stylesheet', href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/styles/default.min.css'),
             Link(rel='stylesheet', href='/static/css/main.css'),
+            Link(rel='stylesheet', href='/static/css/hljs.css'),
             Script(src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/highlight.min.js'),
             head_content,
         ),

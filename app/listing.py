@@ -12,7 +12,8 @@ from app.models.markdown import Markdown
 
 
 def Listing(current: str, path: pathlib.Path):
-    entries = list(Markdown.factory(entity) for entity in path.iterdir())
+    entries = (Markdown.factory(entity) for entity in path.iterdir())
+    entries = filter(lambda entry: not entry.draft, entries)
     entries = sorted(entries, key=operator.attrgetter('date'))
 
     return (

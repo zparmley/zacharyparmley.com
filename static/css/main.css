@@ -71,16 +71,18 @@ nav a.active {
     color: var(--text);
 }
 
-div.home-images {
+div.home {
+    text-align: center;
+}
+div.home .images {
     display: flex;
+    flex-direction: row;
 }
 
-div.home-images p {
+div.home .images img {
     flex: 1;
-}
-
-div.home-images img {
     width: 15rem;
+    padding: .25rem;
 }
 
 .flex {
@@ -133,85 +135,3 @@ code.hljs {
   padding: 3px 5px
 }
 
-.hljs {
-  background: var(--crust);
-  color: var(--subtext1);
-}
-
-.hljs-comment {
-  color: var(--green);
-}
-
-.hljs-punctuation,
-.hljs-tag {
-  color: var(--subtext1);
-}
-
-.hljs-tag .hljs-attr,
-.hljs-tag .hljs-name {
-  color: var(--subtext0);
-}
-
-.hljs-attribute,
-.hljs-doctag,
-.hljs-keyword,
-.hljs-meta .hljs-keyword,
-.hljs-name,
-.hljs-selector-tag {
-  font-weight: 700;
-}
-
-.hljs-deletion,
-.hljs-number,
-.hljs-quote,
-.hljs-selector-class,
-.hljs-selector-id,
-.hljs-string,
-.hljs-template-tag,
-.hljs-type {
-  color: var(--yellow);
-}
-
-.hljs-section,
-.hljs-title {
-  color: var(--mauve);
-  font-weight: 700;
-}
-
-.hljs-link,
-.hljs-operator,
-.hljs-regexp,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-symbol,
-.hljs-template-variable,
-.hljs-variable {
-  color: var(--maroon);
-}
-
-.hljs-literal {
-  color: var(--teal);
-}
-
-.hljs-addition,
-.hljs-built_in,
-.hljs-bullet,
-.hljs-code {
-  color: var(--teal);
-}
-
-.hljs-meta {
-  color: var(--sapphire);
-}
-
-.hljs-meta .hljs-string {
-  color: var(--lavender);
-}
-
-.hljs-emphasis {
-  font-style: italic;
-}
-
-.hljs-strong {
-  font-weight: 700;
-}
